@@ -13,7 +13,7 @@ app.listen(3500,async ()=>{
     console.log("MongoDB connected");
     const service=new TweetService();
     const response=await service.create({
-        content:"This is my tweet from ES6 moduling #exited"
+        content:"This is my tweet  2nd tweet from ES6 moduling #ExiTeD"
     })
 
 })  
